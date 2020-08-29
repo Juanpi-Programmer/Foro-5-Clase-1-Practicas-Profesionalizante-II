@@ -1,0 +1,17 @@
+.formulario{
+    padding: 1rem;
+    -webkit-box-shadow: 10px 6px 14px -4px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px 6px 14px -4px rgba(0,0,0,0.31);
+    box-shadow: 10px 6px 14px -4px rgba(0,0,0,0.31);
+}
+.container h1 {
+    text-align: center;
+}
+
+.datos-form .section{
+    margin-top: 2rem;
+    border-bottom: 1px solid rgba(95, 95, 95, 0.465);
+}
+.section p{
+    font-weight: bold;
+}

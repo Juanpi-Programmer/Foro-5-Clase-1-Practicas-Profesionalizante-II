@@ -1,9 +1,9 @@
 <?php 
-    $title = $_REQUEST['title'];
-    $autor = $_REQUEST['autor'];
-    $editorial = $_REQUEST['editorial'];
-    $date = $_REQUEST['date'];
-    $description = $_REQUEST['description'];
+    $title = $_POST['title'];
+    $autor = $_POST['autor'];
+    $editorial = $_POST['editorial'];
+    $date = $_POST['date'];
+    $description = $_POST['description'];
 
     include 'layout/header.php';
 ?> 

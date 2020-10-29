@@ -1,0 +1,26 @@
+.campos{
+    width: 50%;
+    margin: 5rem auto;
+    background-color: #fcb045;
+    padding: 2rem;
+    border-radius: 1rem;   
+}
+.list{
+    width: 80%;
+    margin: 5rem auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #bbbbbb;
+    height: 25rem;
+}
+.flex-list{
+    display: flex!important;
+    justify-content: space-between;
+    align-content: center;
+}
+.flex-list i {
+    cursor: pointer;
+}
+.users{
+    overflow: auto;
+}

@@ -22,5 +22,13 @@
     cursor: pointer;
 }
 .users{
+    height: 15rem;
     overflow: auto;
+}
+.action-edit{
+    text-decoration: none;
+    color: black;
+}
+.action-edit i {
+    color: black;
 }

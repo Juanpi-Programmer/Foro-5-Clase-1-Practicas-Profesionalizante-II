@@ -3,7 +3,8 @@
 function getAlumnos(){
     include 'connect.php';
     try{
-        return $conn->query("SELECT id, nombre, estado_id, fecha_actualizacion FROM usuario");
+        $sql = " SELECT usuario.*, estados.estado FROM usuario INNER JOIN estados on usuario.estado_id = estados.id ";
+        return $conn->query($sql);
     }catch(Exception $e){
         echo "Error!!" . $e->getMessage() . "<br>";
         return false;
@@ -15,7 +16,8 @@ function getAlumnos(){
 function getAlumno($id){
     include 'connect.php';
     try{
-        return $conn->query("SELECT id, nombre, estado_id, fecha_actualizacion FROM usuario WHERE id = $id");
+        $sql = " SELECT usuario.*, estados.estado FROM usuario INNER JOIN estados on usuario.estado_id = estados.id WHERE usuario.id = $id ";
+        return $conn->query($sql);
     }catch(Exception $e){
         echo "Error!!" . $e->getMessage() . "<br>";
         return false;

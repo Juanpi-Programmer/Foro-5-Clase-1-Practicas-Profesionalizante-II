@@ -11,8 +11,6 @@ function getAlumnos(){
     }
 }
 
-//Obtiene un contacto y toma una id
-
 function getAlumno($id){
     include 'connect.php';
     try{
